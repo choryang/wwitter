@@ -13,5 +13,7 @@ const firebaseConfig = {
 
 firebase.initializeApp(firebaseConfig);
 
+export const firebaseInstance = firebase;
+
 //서비스만 export
 export const authService = firebase.auth();
